@@ -27,11 +27,11 @@ Proje iki ana modül altında toplanmış geniş bir hesaplama yelpazesi sunar:
    ```bash
    git clone https://github.com/emirhan-uras/Olasilik-ve-Istatistik.git
 
-   2. **Proje dizinine giderek Java dosyasını derleyin:**
+2. **Proje dizinine giderek Java dosyasını derleyin:**
    ```bash
    javac IstatistikHesaplayici.java
    ```
-
+   
 3. **Uygulamayı başlatın:**
    ```bash
    java IstatistikHesaplayici
