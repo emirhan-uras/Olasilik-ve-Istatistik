@@ -1,4 +1,4 @@
-# Comprehensive Statistics & Probability Analysis Engine
+# Kapsamlı Olasılık ve İstatistik Analiz Motoru
 
 Olasılık ve istatistik hesaplamaları için geliştirilmiş, CLI (Komut Satırı Arayüzü) tabanlı gelişmiş bir Java uygulamasıdır. Proje, hem temel rastgele örnekleme yöntemlerini simüle eden hem de girilen veri setleri üzerinde tam kapsamlı istatistiksel analizler (merkezi eğilim, dağılım ölçüleri, çeyreklikler) gerçekleştiren iki ana modülden oluşmaktadır.
 
@@ -25,4 +25,4 @@ Proje iki ana modül altında toplanmış geniş bir hesaplama yelpazesi sunar:
 
 1. Repoyu bilgisayarınıza klonlayın:
    ```bash
-   git clone [https://github.com/kullaniciadi/repo-adi.git](https://github.com/kullaniciadi/repo-adi.git)
+   git clone [https://github.com/emirhan-uras/Olasilik-ve-Istatistik.git](https://github.com/emirhan-uras/Olasilik-ve-Istatistik.git)
