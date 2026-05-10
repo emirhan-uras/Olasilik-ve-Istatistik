@@ -25,4 +25,17 @@ Proje iki ana modül altında toplanmış geniş bir hesaplama yelpazesi sunar:
 
 1. Repoyu bilgisayarınıza klonlayın:
    ```bash
-   git clone [https://github.com/emirhan-uras/Olasilik-ve-Istatistik.git](https://github.com/emirhan-uras/Olasilik-ve-Istatistik.git)
+   git clone https://github.com/emirhan-uras/Olasilik-ve-Istatistik.git
+
+   2. **Proje dizinine giderek Java dosyasını derleyin:**
+   ```bash
+   javac IstatistikHesaplayici.java
+   ```
+
+3. **Uygulamayı başlatın:**
+   ```bash
+   java IstatistikHesaplayici
+   ```
+
+---
+*Bu proje Karadeniz Teknik Üniversitesi, Yazılım Mühendisliği bölümü kapsamında geliştirilen algoritmik çalışmaları içermektedir.*
