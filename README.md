@@ -1,26 +1,27 @@
-# Statistical Sampling and Frequency Calculator
+# Comprehensive Statistics & Probability Analysis Engine
 
-Olasılık ve istatistik hesaplamaları için geliştirilmiş, konsol tabanlı (CLI) bir Java uygulamasıdır. Kullanıcılardan alınan verilerle çeşitli rastgele örnekleme yöntemlerini simüle eder ve frekans dağılımlarını hesaplar.
+Olasılık ve istatistik hesaplamaları için geliştirilmiş, CLI (Komut Satırı Arayüzü) tabanlı gelişmiş bir Java uygulamasıdır. Proje, hem temel rastgele örnekleme yöntemlerini simüle eden hem de girilen veri setleri üzerinde tam kapsamlı istatistiksel analizler (merkezi eğilim, dağılım ölçüleri, çeyreklikler) gerçekleştiren iki ana modülden oluşmaktadır.
 
 ## 🚀 Özellikler
 
-Proje, temel istatistiksel işlemleri gerçekleştirmek için aşağıdaki altı ana modüle sahiptir:
+Proje iki ana modül altında toplanmış geniş bir hesaplama yelpazesi sunar:
 
-1. **Sistematik Rastgele Örnekleme:** Belirli bir evren (N) ve örneklem hacmi (n) üzerinden $k$ periyodu ile sistematik seçim yapar.
-2. **Basit Rastgele Örnekleme:** Belirtilen alt ve üst sınırlar arasında, tekrar etmeyen benzersiz rastgele sayılar üretir.
-3. **Basit Seri:** Kullanıcıdan alınan verileri yerleşik fonksiyonlar yerine Bubble Sort algoritması kullanarak küçükten büyüğe sıralar.
-4. **Tabakalı Rastgele Örnekleme:** Farklı tabakaların evren içindeki ağırlıklarına (N1, N2...) göre orantılı olarak rastgele eleman seçimi yapar.
-5. **Frekans Serisi:** Girilen veri setindeki her bir elemanın frekansını (tekrar sayısını) gruplandırarak hesaplar.
-6. **Frekans Tablosu:** Sınıf sayısını, sınıf aralığını, değişim genişliğini (R) ve birim hassasiyetini hesaplayarak detaylı bir frekans dağılım tablosu oluşturur (Sınıf Limitleri, Oransal Frekans, Eklenik Frekans vb.).
+### Modül 1: Örneklem ve Temel Tablo Yöntemleri
+* **Sistematik Rastgele Örnekleme:** Evren (N) ve örneklem (n) değerlerine göre periyodik (k) eleman seçimi.
+* **Basit Rastgele Örnekleme:** Alt ve üst sınırlar belirlenerek benzersiz rastgele sayılar üretimi.
+* **Tabakalı Rastgele Örnekleme:** Tabaka ağırlıklarına göre orantılı (n) örneklem seçimi.
+* **Frekans Serisi ve Tablosu:** Sınıf aralığı (h), değişim genişliği (R), eklenik ve oransal frekansları hesaplayarak detaylı matris dökümü.
+
+### Modül 2: Tam Kapsamlı İstatistik Analiz Motoru
+* **Merkezi Eğilim Ölçüleri:** Aritmetik Ortalama, Medyan (Ortanca), Mod (Tepe Değer), Geometrik Ortalama, Harmonik Ortalama.
+* **Dağılım ve Şekil Ölçüleri:** Örneklem Varyansı, Standart Sapma, Ortalama Mutlak Sapma (OMS), Çarpıklık (m3), Sivrilik (m4), Değişim Katsayısı.
+* **Çeyreklik Hesaplamaları:** Frekans tablosu üzerinden interpolasyon yöntemiyle 1. Çeyreklik (Q1) ve 3. Çeyreklik (Q3) hesaplamaları.
 
 ## 🛠️ Kullanılan Teknolojiler
-
-* **Dil:** Java
-* **Standart Kütüphaneler:** `java.util.Scanner`, `java.util.Random`, `java.util.List`, `java.util.ArrayList`
+* **Dil:** Java (Tamamen yerleşik SE standartları kullanılmıştır, dış bağımlılık içermez.)
+* **Sıralama Algoritması:** Yerleşik kütüphaneler yerine algoritmik temelleri göstermek amacıyla özel **Bubble Sort** (Kabarcık Sıralaması) fonksiyonu entegre edilmiştir.
 
 ## 💻 Kurulum ve Kullanım
-
-Projeyi yerel makinenizde derlemek ve çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. Repoyu bilgisayarınıza klonlayın:
    ```bash
